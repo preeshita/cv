@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title>
+            preeshita's personal site
+        </title>
+    </head>
+    <body>
+        <!-- cellspacing is attribute of table tag to create spacing between columns-->
+        <table cellspacing="20">
+            <tr>
+                <td><img src="circle-cropped.png" alt="preeshita's profile picture" height="300" width="300"></td>
+                <td><h1>PREESHITA DEY</h1>
+                    <p><em>Engineering student at<strong> <a href="https://kiit.ac.in/">KIIT university</a></strong>, Bhubaneshwar</em></p></td>
+            </tr>
+        </table>
+        <!-- here <img > stands for adding image to a webpage ,SRC is for image address or file name and ALT stands for alternative
+        that is if webpage cannot find image link then it will use the alternative name-->
+         
+        <!-- <a> tag is anchor tag that contains the attribute HREF stands for link that will point to specified website
+            when clicked. <a> is not a self closing tag hence it needs closing tag. content between the start <a> tag and 
+                end <a> tag is the text that when clicked will point to desired link-->
+         
+        <!--<i> stands for italics and <em> stands for italics with importance so it is advised to use <em> -->
+        <!--  <strong> and <bold> are almost same ,only strong refers to bold with importance , hence advised to used strong instead of bold-->
+        <p>I am an Engineering student ,studying at Kalinga institue of industrial technology ,Bhubaneshwar 
+            from electronics and computer science department .I am from guwahati.
+        </p>
+        <hr>
+        <h3>EDUCATION</h3>
+        <!-- list-there are two types , ordered and unordered. 
+        for bullet points we use ul i.e unordered and for numbers we use ordered 
+        for eg- (i)<ol start="4" , this implies numbering will start from 4 
+                (ii)<ol type="i", this is for roman numbers  -->
+        <ul>
+           <li>Kendriya vidalaya, dimapur</li>
+           <li>delhi public school,guwahati</li>
+           <li>kiit uniiversity , bhubaneshwar</li>
+         </ul>
+         <hr>
+         <h3>WORK EXPERIENCE</h3>
+
+         <!-- table in html can be created using <tabe> tag 
+             <tr> refers to table row , that contains <td> i.e table data
+                 tables also contain table heading <thead>, <tbody> for data inside table 
+                     and <tfooter> for table footer-->
+
+        <!--<th> stands for data inside table head-->
+         <table border="2">
+             <thead>
+                 <tr>
+                    <th>date</th>
+                    <th>experience</th>
+                 </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2010-2013</td>
+                    <td>lead developer at tempo app</td>
+                </tr>
+                <tr>
+                    <td>2013-2017</td>
+                    <td>research at ICN</td>
+                </tr>
+            </tbody>
+            
+         </table>
+         <hr>
+
+         <!-- NESTED TABLE-->
+         <h3>SKILLS</h3>
+         
+        <table border="2">
+            <tr>
+                <td>
+                    <table cellspacing="10">
+                        <tr>
+                            <td>ios development</td>
+                            <td>*****</td>
+                        </tr>
+                        <tr>
+                            <td>web development</td>
+                            <td>*****</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table cellspacing="10">
+                        <tr>
+                            <td>photography</td>
+                            <td>***</td>
+                        </tr>
+                        <tr>
+                            <td>dancing</td>
+                            <td>****</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+             
+         
+         <h3><a href="hobbies.html">HOBBIES</a></h3>
+         <br>
+         <h3><a href="contact.html">CONTACT ME</a></h3>
+     </body>
+</html>
